@@ -23,8 +23,9 @@ nav h1{
 
 main{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: auto;
+    height: 100vh;
     max-width: 800px;
     min-width: 400px;
 } 
@@ -49,7 +50,7 @@ main h2{
 }
 
 div{
-    background-color: black;
+    background-color: white;
     text-align: center;
     width: 150px;
     margin: 100px auto;
@@ -58,7 +59,7 @@ div{
 }
 
 .ctt{
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.6em;
 }
