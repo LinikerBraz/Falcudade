@@ -1,71 +1,77 @@
 @charset "UTF-8";
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    background-color: black;
+    margin: 0px;
+    background-image: url('https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png');
+}
+
+
+header h1{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-top: 15px;
+    font-variant: small-caps;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+nav ul{
+    text-align: center;
     margin: 0px;
     padding: 0px;
 }
 
-body, html{
-    background-color: black;
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.8em;
 }
 
-nav h1{
-    color: white;
-    text-align: center;
-    font-variant: small-caps;
-    font-size: 3em;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-shadow: 3px 1px 10px rgba(255, 255, 255, 0.453);
-    font-weight: bolder;
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 
+    transition: background-color 0.5s ease-in-out;
+
+    transition: color 0.5s ease-in-out;
 }
 
 main{
-    background-color: white;
-    border-radius: 10px;
-    margin: auto;
-    height: 100vh;
+    background-color: transparent;
+    min-width: 600px;
     max-width: 800px;
-    min-width: 400px;
-} 
-
-main p{
-    text-indent: 15px;
-    text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 0px;
-    font-size: 1.4em;
+    margin: auto
 }
 
 main h2{
-    text-indent: 25px;
-    font-size: 2em;
+    color: white;
+    text-indent: 35px;
+    font-size: 3.5em;
     font-variant: small-caps;
     padding-top: 15px;
     padding-bottom: 10px;
-    font-weight: bolder;
-
-}
-
-div{
-    background-color: white;
-    text-align: center;
-    width: 150px;
-    margin: 100px auto;
-    border-radius: 20px;
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.423);
-}
-
-.ctt{
-    color: black;
-    text-decoration: none;
-    font-size: 1.6em;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
 
-
-
+main p{
+    text-indent: 25px;
+    color: white;
+    font-size: 1.8em;
+    text-align: justify;
+}
 
