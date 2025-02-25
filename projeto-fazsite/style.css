@@ -2,11 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root{
+    --cor001:var();
+    --cor002: var();
+    --cor003: var();
+    --cor004: var();
+    --fonte_titulo: var();
+    --fonte_subtitulo: var();
+    --fonte_paragrafo: var();
+}
 
 body{
     background-color: black;
     margin: 0px;
-    background-image: url('https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png');
+    padding: 0px;
 }
 
 
@@ -31,24 +40,31 @@ nav ul{
 nav a{
     color: white;
     text-decoration: none;
-    padding: 25px;
-    font-size: 1.8em;
+    margin-left: 5px ;
+    padding-bottom: 10px;
+    padding: 10px;
+    font-size: 1.6em;
+    min-width: 350px;
 }
 
 a:hover{
     background-color: white;
     color: black;
     border-radius: 18px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
 
-    transition: background-color 0.5s ease-in-out;
+div{
+    background-image: url('https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
-    transition: color 0.5s ease-in-out;
 }
 
 main{
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.395);
     min-width: 600px;
     max-width: 800px;
     margin: auto
