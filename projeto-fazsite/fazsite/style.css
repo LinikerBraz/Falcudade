@@ -97,8 +97,55 @@ section > p{
 }
 
 
+div.servicos {
+    background-color: var(--cor04); /* Fundo branco */
+    display: flex;
+    justify-content: flex-end; /* Alinha tudo à direita */
+    gap: 10px; /* Espaçamento entre os elementos */
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    margin: 50px 15px;
+    margin-bottom: -25px;
+}
+
+div.servicos p {
+    flex: 1; /* Ocupa o espaço necessário à esquerda */
+    text-align: left; /* Alinha o texto à esquerda */
+    color: var(--cor03); /* Cor do texto */
+    margin: 0;
+    text-align:justify;
+    margin-left:25px;
+    margin-right:310px;
+    margin-top: 60px;
+    font-size: 1.7em;
+    
 
 
+
+}
+
+
+
+
+
+div .coluna {
+    display: flex;
+    flex-direction: column; /* Empilha as imagens na vertical */
+    gap: 10px; /* Espaçamento entre as imagens da coluna */
+}
+
+div img {
+    width: 120px; /* Tamanho padrão das imagens */
+    height: 120px;
+}
+
+div img.grande {
+    width: 250px; /* Largura maior para a imagem ao lado */
+    height: 250px; /* Altura proporcional */
+    margin-right: 100px;
+}
 
 
 
